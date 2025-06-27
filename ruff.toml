@@ -1,0 +1,30 @@
+indent-width = 2
+line-length = 320
+lint.select = [
+  "A",      # flake8-builtins
+  "ASYNC",  # flake8-async
+  "B",      # flake8-bugbear
+  "C4",     # flake8-comprehensions
+  "E",      # pycodestyle
+  "F",      # pyflakes
+  "ICN",    # flake8-import-conventions
+  "INT",    # flake8-gettext
+  "PIE",    # flake8-pie
+  "PL",     # pylint
+  "RSE",    # flake8-raise
+  "RUF",    # ruff
+  "T10",    # flake8-debugger
+  "TCH",    # flake8-type-checking
+  "UP",     # pycodestyle
+  "W",      # pycodestyle
+  "YTT",    # flake8-2020
+]
+lint.ignore = [
+  "A001", "A002", "A003", "A006", "B006", "C405", "C417", "E501", "E711", "E712", "E713", "E722",
+  "E731", "E741", "F541", "PIE804", "PIE808", "PLR2004", "PLR0911", "PLR0913", "PLR0912",
+  "PLR0915", "PLR1714", "PLR5501", "PLW2901", "UP013", "UP015", "UP038", "RUF010", "RUF012",
+  "RUF015", "TC001", "TC006",
+]
+format.quote-style = "double"
+format.indent-style = "space"
+format.line-ending = "lf"

@@ -1,0 +1,16 @@
+{
+  "name": "ruff-config-silverwind",
+  "version": "1.0.0",
+  "description": "Ruff configuration",
+  "author": "silverwind <me@silverwind.io>",
+  "repository": "silverwind/ruff-config-silverwind",
+  "license": "BSD-2-Clause",
+  "type": "module",
+  "files": [
+    "ruff.toml"
+  ],
+  "devDependencies": {
+    "updates": "16.4.2",
+    "versions": "12.1.3"
+  }
+}
