@@ -13,10 +13,6 @@ lint: node_modules
 lint-fix: node_modules
 	npx eslint --color . --fix
 
-.PHONY: test
-test: node_modules
-	npx tsc
-
 .PHONY: publish
 publish: node_modules
 	if git ls-remote --exit-code origin &>/dev/null; then git push -u -f --tags origin master; fi
