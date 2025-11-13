@@ -1,6 +1,6 @@
 {
   "name": "ruff-config-silverwind",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Ruff configuration",
   "author": "silverwind <me@silverwind.io>",
   "repository": "silverwind/ruff-config-silverwind",
