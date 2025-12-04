@@ -10,7 +10,7 @@
     "ruff.toml"
   ],
   "devDependencies": {
-    "updates": "16.9.1",
-    "versions": "14.0.2"
+    "updates": "17.0.2",
+    "versions": "14.0.3"
   }
 }
