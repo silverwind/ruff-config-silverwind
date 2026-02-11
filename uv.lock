@@ -1,0 +1,27 @@
+version = 1
+revision = 3
+requires-python = ">=3.11"
+
+[[package]]
+name = "ruff-config-silverwind"
+version = "0.0.0"
+source = { virtual = "." }
+
+[package.dev-dependencies]
+dev = [
+    { name = "tomllint" },
+]
+
+[package.metadata]
+
+[package.metadata.requires-dev]
+dev = [{ name = "tomllint", specifier = "==0.3.2" }]
+
+[[package]]
+name = "tomllint"
+version = "0.3.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/f4/6a/0d58a8f535c70d5cb562b716f139afe09ba466aaaf2e632755e93e6124a3/tomllint-0.3.2.tar.gz", hash = "sha256:9dd525378654b4f88b55ffb89381823b93e08625f4d037b86a7f7fb3dc82c3b8", size = 7609, upload-time = "2026-01-17T22:20:11.805Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/83/e7/121442ce80308f5c038180bcdc0d789f823eb05effd9c32523c506afaf27/tomllint-0.3.2-py3-none-any.whl", hash = "sha256:c36e8c848a376ecffc1560e582898b831bfe71120f7c6529c6ec74e4cb1d6a19", size = 9230, upload-time = "2026-01-17T22:20:10.487Z" },
+]

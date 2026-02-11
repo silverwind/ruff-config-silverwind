@@ -2,6 +2,10 @@ node_modules: pnpm-lock.yaml
 	pnpm install
 	@touch node_modules
 
+.venv: uv.lock
+	uv sync
+	@touch .venv
+
 .PHONY: deps
 deps: node_modules
 
@@ -9,8 +13,8 @@ deps: node_modules
 lint: lint-toml
 
 .PHONY: lint-toml
-lint-toml:
-	uvx tomllint *.toml
+lint-toml: .venv
+	uv run --frozen tomllint *.toml
 
 .PHONY: test
 test:
