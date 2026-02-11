@@ -6,12 +6,11 @@ node_modules: pnpm-lock.yaml
 deps: node_modules
 
 .PHONY: lint
-lint: node_modules
-	exit 0
+lint: lint-toml
 
-.PHONY: lint-fix
-lint-fix: node_modules
-	exit 0
+.PHONY: lint-toml
+lint-toml:
+	uvx tomllint *.toml
 
 .PHONY: test
 test:
