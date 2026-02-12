@@ -11,6 +11,7 @@
   ],
   "devDependencies": {
     "updates": "17.0.8",
+    "updates-config-silverwind": "1.0.3",
     "versions": "14.0.3"
   },
   "packageManager": "pnpm@10.28.2"
