@@ -6,6 +6,7 @@
   "repository": "silverwind/ruff-config-silverwind",
   "license": "BSD-2-Clause",
   "type": "module",
+  "sideEffects": false,
   "files": [
     "ruff.toml"
   ],
