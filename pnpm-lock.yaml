@@ -9,30 +9,30 @@ importers:
   .:
     devDependencies:
       updates:
-        specifier: 17.9.1
-        version: 17.9.1
+        specifier: 17.15.2
+        version: 17.15.2
       updates-config-silverwind:
-        specifier: 1.0.4
-        version: 1.0.4(prettier@3.8.1)
+        specifier: 2.1.0
+        version: 2.1.0(prettier@3.8.2)
       versions:
         specifier: 14.3.1
         version: 14.3.1
 
 packages:
 
-  prettier@3.8.1:
-    resolution: {integrity: sha512-UOnG6LftzbdaHZcKoPFtOcCKztrQ57WkHDeRD9t/PTQtmT0NHSeWWepj6pS0z/N7+08BHFDQVUrfmfMRcZwbMg==}
+  prettier@3.8.2:
+    resolution: {integrity: sha512-8c3mgTe0ASwWAJK+78dpviD+A8EqhndQPUBpNUIPt6+xWlIigCwfN01lWr9MAede4uqXGTEKeQWTvzb3vjia0Q==}
     engines: {node: '>=14'}
     hasBin: true
 
-  updates-config-silverwind@1.0.4:
-    resolution: {integrity: sha512-NU9XTdmH37eArgtVkd4Blsxpnx5K9bjSbsw5PyYGn0C6D7wvrzz0TFMyOg+S9mPErYb3dHQ7V3DnwOzaDigpYA==}
+  updates-config-silverwind@2.1.0:
+    resolution: {integrity: sha512-PvtBYRAGWQYCFSnc/FzfGwkV8INcCbRoCPiEz79MgcRq574N3eEES7T11AdM0SxmxwDeIbQWdvKVo1JJxCJolA==}
     engines: {node: '>=20'}
     peerDependencies:
       prettier: '*'
 
-  updates@17.9.1:
-    resolution: {integrity: sha512-Og7R/myJy4+USffAoXvBJJDOW4dXrfPI2qAh56NL85nUx3iBYe8u4AkiBAoua4xH06OGQY3MhkBtAg7QtY/ZUA==}
+  updates@17.15.2:
+    resolution: {integrity: sha512-hL8i3O5xAZoZdYT3M0YENt9Ykyhl1+d8gJpMuxE+YHKXSX6amahzilaup1yUo5Eeijw18bz5ev52b3p4rjQjJQ==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -43,12 +43,12 @@ packages:
 
 snapshots:
 
-  prettier@3.8.1: {}
+  prettier@3.8.2: {}
 
-  updates-config-silverwind@1.0.4(prettier@3.8.1):
+  updates-config-silverwind@2.1.0(prettier@3.8.2):
     dependencies:
-      prettier: 3.8.1
+      prettier: 3.8.2
 
-  updates@17.9.1: {}
+  updates@17.15.2: {}
 
   versions@14.3.1: {}
