@@ -12,7 +12,7 @@
   ],
   "devDependencies": {
     "jest-extended": "7.0.0",
-    "updates": "17.16.9",
+    "updates": "17.16.10",
     "updates-config-silverwind": "3.0.2",
     "versions": "15.0.3"
   },
