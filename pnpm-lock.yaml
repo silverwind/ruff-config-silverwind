@@ -12,14 +12,14 @@ importers:
         specifier: 7.0.0
         version: 7.0.0(typescript@6.0.3)
       updates:
-        specifier: 17.16.10
-        version: 17.16.10
+        specifier: 17.17.3
+        version: 17.17.3
       updates-config-silverwind:
         specifier: 3.0.2
         version: 3.0.2(prettier@3.8.3)
       versions:
-        specifier: 15.0.3
-        version: 15.0.3
+        specifier: 15.1.0
+        version: 15.1.0
 
 packages:
 
@@ -87,8 +87,8 @@ packages:
   react-is@18.3.1:
     resolution: {integrity: sha512-/LLMVyas0ljjAtoYiPqYiL8VWXzUUdThrmU5+n20DZv+a+ClRoevUzw5JxU+Ieh5/c87ytoTBV9G1FiKfNJdmg==}
 
-  react-is@19.2.6:
-    resolution: {integrity: sha512-XjBR15BhXuylgWGuslhDKqlSayuqvqBX91BP8pauG8kd1zY8kotkNWbXksTCNRarse4kuGbe2kIY05ARtwNIvw==}
+  react-is@19.2.7:
+    resolution: {integrity: sha512-kZFnouyVv7eP/Phmrlo9FK+zcAdriZJvzxXHF1Sl1P377WSGe2G/JxVolhTrB/jeV47lKImhNUsijjHAAbcl/A==}
 
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
@@ -105,13 +105,13 @@ packages:
     peerDependencies:
       prettier: '*'
 
-  updates@17.16.10:
-    resolution: {integrity: sha512-5RvpiYF9c4FqKVSyEbDoOCyshfnjBmTRO/Z3viLdWIyCKyetzeVzPB9+rc2qeY6CM32IoBhY/ptXgL7D0OKfiQ==}
+  updates@17.17.3:
+    resolution: {integrity: sha512-ZIhWarBUBmKG65d0AeOOMlZFonGWn6Ntol4/epga/xbQymEOh/2s07U+1UGM94y9JEPbk4CjowYgEo3F76ZxYA==}
     engines: {node: '>=22'}
     hasBin: true
 
-  versions@15.0.3:
-    resolution: {integrity: sha512-jN9A/S+tBxRbslAtqGIBZUkuM8UeWMdZadAZzgsg+MlMY/B8SPiY5PtJs3Puj6R2+N7RU+ZmI3lfyIvd8Y8M5A==}
+  versions@15.1.0:
+    resolution: {integrity: sha512-/+gKbTgBxNi0t62nrdBraAVkc1NyIEMY/R4MDALfeu4NhQt61zDl9otSI4jmNYKXr6RaVKNnLLXce4+Me40RrA==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -165,11 +165,11 @@ snapshots:
       '@jest/schemas': 30.4.1
       ansi-styles: 5.2.0
       react-is-18: react-is@18.3.1
-      react-is-19: react-is@19.2.6
+      react-is-19: react-is@19.2.7
 
   react-is@18.3.1: {}
 
-  react-is@19.2.6: {}
+  react-is@19.2.7: {}
 
   supports-color@7.2.0:
     dependencies:
@@ -181,6 +181,6 @@ snapshots:
     dependencies:
       prettier: 3.8.3
 
-  updates@17.16.10: {}
+  updates@17.17.3: {}
 
-  versions@15.0.3: {}
+  versions@15.1.0: {}
