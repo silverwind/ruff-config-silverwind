@@ -12,9 +12,9 @@
   ],
   "devDependencies": {
     "jest-extended": "7.0.0",
-    "updates": "17.20.3",
-    "updates-config-silverwind": "4.0.5",
-    "versions": "15.2.1"
+    "updates": "18.1.0",
+    "updates-config-silverwind": "4.0.6",
+    "versions": "15.4.0"
   },
-  "packageManager": "pnpm@12.3.4"
+  "packageManager": "pnpm@12.4.1"
 }
