@@ -3,7 +3,10 @@
   "version": "1.2.1",
   "description": "Ruff configuration",
   "author": "silverwind <me@silverwind.io>",
-  "repository": "silverwind/ruff-config-silverwind",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silverwind/ruff-config-silverwind.git"
+  },
   "license": "BSD-2-Clause",
   "type": "module",
   "sideEffects": false,
