@@ -15,8 +15,8 @@ lint.select = [
   "RSE",    # flake8-raise
   "RUF",    # ruff
   "T10",    # flake8-debugger
-  "TCH",    # flake8-type-checking
-  "UP",     # pycodestyle
+  "TC",     # flake8-type-checking
+  "UP",     # pyupgrade
   "W",      # pycodestyle
   "YTT",    # flake8-2020
 ]
@@ -28,6 +28,4 @@ lint.ignore = [
   "RUF015", "TC001", "TC006", "TC002", "TC003", "PLC0415"
 ]
 lint.flake8-builtins.ignorelist = ["ConnectionError"]
-format.quote-style = "double"
-format.indent-style = "space"
 format.line-ending = "lf"
