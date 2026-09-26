@@ -170,14 +170,14 @@ importers:
         specifier: 7.0.0
         version: 7.0.0(typescript@7.0.2)
       updates:
-        specifier: 19.0.0
-        version: 19.0.0
+        specifier: 19.0.2
+        version: 19.0.2
       updates-config-silverwind:
-        specifier: 4.0.6
-        version: 4.0.6(prettier@3.9.9)
+        specifier: 4.0.7
+        version: 4.0.7(prettier@3.9.9)
       versions:
-        specifier: 15.5.0
-        version: 15.5.0
+        specifier: 15.5.1
+        version: 15.5.1
 
 packages:
 
@@ -377,19 +377,19 @@ packages:
     engines: {node: '>=16.20.0'}
     hasBin: true
 
-  updates-config-silverwind@4.0.6:
-    resolution: {integrity: sha512-+aXzJoAOzmnLiiO6NagpMLH7yryEfjgz77JbpxAY+eso/j6ANe/t3aUiZ1OksCbQO8GydBgrGDznVHKovU3QbA==}
+  updates-config-silverwind@4.0.7:
+    resolution: {integrity: sha512-5yza9e6qcd3y3BBswpvWy8sBDBcyEynE1QWnW90ze0HGaxKord9lWC57YkiXNAFG6iYTeTvDWhrQS+0RPpT81Q==}
     engines: {node: '>=22'}
     peerDependencies:
       prettier: '*'
 
-  updates@19.0.0:
-    resolution: {integrity: sha512-8dfTBWeThh3qyrkjHC0Gypt3eC+uyJbZRIDMnWYnT1H3oP8gBrXNGF0wmeZ1MyusTHSCoNfHmtamqtPLWHwMEQ==}
+  updates@19.0.2:
+    resolution: {integrity: sha512-wjY55ND0Nv02+TkpjiopyKem8Y9FeE185dpXXAzunMpv08UZRykB8jBJzn74r70NBfCVTdHYoesoAbdcZuyntQ==}
     engines: {node: '>=22'}
     hasBin: true
 
-  versions@15.5.0:
-    resolution: {integrity: sha512-LtTh+zoBp5UZzLA4VnUDuxtsT04k8YSOmyRZF5w2ZDPB4/+PH3SL+w7x1ccmKQSNR5WSlSCXo1CcQbF5W7y5kg==}
+  versions@15.5.1:
+    resolution: {integrity: sha512-ZqGI4K58J5J5X5gDCRX0YE280740sleL45gJAEQlCmCO5H+OnBQI4U7lGA7XYCImzX2ZCyZ/pkS0v7gtxeF6dA==}
     engines: {node: '>=22'}
     hasBin: true
 
@@ -536,10 +536,10 @@ snapshots:
       '@typescript/typescript-win32-arm64': 7.0.2
       '@typescript/typescript-win32-x64': 7.0.2
 
-  updates-config-silverwind@4.0.6(prettier@3.9.9):
+  updates-config-silverwind@4.0.7(prettier@3.9.9):
     dependencies:
       prettier: 3.9.9
 
-  updates@19.0.0: {}
+  updates@19.0.2: {}
 
-  versions@15.5.0: {}
+  versions@15.5.1: {}
