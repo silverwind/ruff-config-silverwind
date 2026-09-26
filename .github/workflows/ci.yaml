@@ -19,4 +19,4 @@ jobs:
         with:
           cache: pnpm
           node-version: latest
-      - run: make deps lint
+      - run: make deps lint test build
