@@ -14,7 +14,6 @@
     "ruff.toml"
   ],
   "devDependencies": {
-    "jest-extended": "7.0.0",
     "updates": "19.0.2",
     "updates-config-silverwind": "4.0.7",
     "versions": "15.5.1"
