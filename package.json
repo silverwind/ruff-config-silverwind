@@ -1,7 +1,7 @@
 {
   "name": "ruff-config-silverwind",
   "version": "1.2.2",
-  "description": "Ruff configuration",
+  "description": "Shared Ruff configuration",
   "author": "silverwind <me@silverwind.io>",
   "repository": {
     "type": "git",
